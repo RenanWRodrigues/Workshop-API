@@ -1,0 +1,19 @@
+[project]
+name = "workshop-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Renan Rodrigues",email = "renan.william8@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.135.1,<0.136.0)",
+    "uvicorn (>=0.41.0,<0.42.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
