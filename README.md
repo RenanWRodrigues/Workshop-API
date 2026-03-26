@@ -145,5 +145,3 @@ curl -s -X DELETE http://127.0.0.1:8000/users/1
 ## Notas
 
 - Este repositório contém uma pasta `venv/` no workspace. Em geral, **não é recomendado versionar** ambiente virtual no GitHub. Considere adicionar `venv/` no `.gitignore` antes de publicar.
-
-# Workshop-API
